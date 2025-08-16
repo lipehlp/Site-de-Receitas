@@ -10,11 +10,29 @@ body {
     color: #000000;
     padding: 20px;
 }
-header {
-    background-color: #ff7641;
-    color: white;
-    padding: 20px;
-    text-align: center;
+/* ===== CABEÇALHO MODERNO ===== */
+.site-header {
+  background: linear-gradient(135deg, #ff7641, #ff8a65); /* gradiente laranja */
+  color: white;
+  padding: 25px 0; /* aumenta o espaçamento vertical */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra suave */
+  border-bottom-left-radius: 20px; /* cantos arredondados na base */
+  border-bottom-right-radius: 20px;
+}
+
+.site-header h1 {
+  font-family: 'Georgia', serif; /* fonte elegante */
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  letter-spacing: 1px; /* espaçamento entre letras */
+}
+
+.site-header .slogan {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  opacity: 0.9; /* deixa o slogan discreto */
+  margin-top: 5px;
 }
 main {
     margin: 20px auto;
