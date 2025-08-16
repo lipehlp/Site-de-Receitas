@@ -1,11 +1,8 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Estilização do body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,16 +10,12 @@ body {
     color: #000000;
     padding: 20px;
 }
-
-/* Header */
 header {
     background-color: #83b862;
     color: white;
     padding: 20px;
     text-align: center;
 }
-
-/* Main */
 main {
     margin: 20px auto;
     max-width: 800px;
@@ -30,6 +23,7 @@ main {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 footer {
