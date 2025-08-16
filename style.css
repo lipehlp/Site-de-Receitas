@@ -24,6 +24,7 @@ main {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 footer {
@@ -40,7 +41,7 @@ footer {
     width: 400px;
     height: auto;
   }
-  
+
  .iframe {
   display: block;
   margin: 20px auto;
